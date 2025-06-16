@@ -32,12 +32,23 @@ Flask, SQLAlchemy, JWT va MySQL asosida yaratilgan ombor boshqaruvi tizimi. Tizi
 - Flask-CORS
 
 ---
+## Foydalanuvchi
 
 | Method | Endpoint        | Tavsif                           |
 | ------ | --------------- | -------------------------------- |
 | `POST` | `/api/register` | Ro‘yxatdan o‘tish                |
 | `POST` | `/api/login`    | Tizimga kirish (JWT token bilan) |
 | `GET`  | `/api/profile`  | Foydalanuvchi ma’lumotlari       |
+
+## Mahsulotlar
+
+| Method   | Endpoint             | Tavsif                         |
+| -------- | -------------------- | ------------------------------ |
+| `GET`    | `/api/products`      | Mahsulotlar ro‘yxati           |
+| `GET`    | `/api/products/<id>` | Bitta mahsulot ma’lumotlari    |
+| `POST`   | `/api/products`      | Mahsulot qo‘shish (rasm bilan) |
+| `PUT`    | `/api/products/<id>` | Mahsulotni tahrirlash          |
+| `DELETE` | `/api/products/<id>` | Mahsulotni o‘chirish           |
 
 
 
