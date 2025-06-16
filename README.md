@@ -123,9 +123,9 @@ Flask, SQLAlchemy, JWT va MySQL asosida yaratilgan ombor boshqaruvi tizimi. Tizi
 
 ---
 
-## Default Admin Foydalanuvchi
-Email: admin@warehouse.com
-Parol: admin123
+## Default Admin 
+-  Email: admin@warehouse.com
+-  Parol: admin123
 
 ---
 
