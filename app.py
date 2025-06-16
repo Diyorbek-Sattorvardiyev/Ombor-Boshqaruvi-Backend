@@ -1208,8 +1208,8 @@ def download_admin_backup():
     buffer.seek(0)
 
     # ⏳ Telegramga yuborish
-    TELEGRAM_BOT_TOKEN = '7505491330:AAHYS2XsTTihFpTSsU7MHexioa2ZgVtqNtI'
-    TELEGRAM_CHAT_ID = '7093186163'
+    TELEGRAM_BOT_TOKEN = 'BOT_Token' #bot token qoyiladi
+    TELEGRAM_CHAT_ID = 'CHAT_ID' #admin chat id qoyiladi
 
     try:
         files = {
